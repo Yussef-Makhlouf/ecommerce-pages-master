@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+.card{
+  margin: 10px;
+  float: left;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  /* height: 400px; */
+  /* overflow: auto;
+  overflow-x: hidden; */
+  max-height: max-content;
+
+
+}
+.btn-group{
+  float: right;
+}
+button{
+  margin: 5px;
+  padding: 5px;
+
+}
+.card-img-top{
+  width: 100%;
+  height: 200px;
+}
+
