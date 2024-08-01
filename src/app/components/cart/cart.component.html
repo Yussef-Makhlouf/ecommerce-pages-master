@@ -52,8 +52,11 @@
             <div class="card-body">
               <h5 class="card-title">{{ item.title }}</h5>
               <p class="card-text">{{ item.description }}</p>
+              <h4>Quantity: {{ item.quantity }}</h4>
+              <p class="card-text"><strong class="text-muted">{{ item.category }}</strong></p>
               <p class="card-text"><strong>${{ item.price }}</strong></p>
 
+              <button type="button" class="btn btn-danger" (click)="removeFromCart(item)">Remove</button>
             </div>
           </div>
         </div>
